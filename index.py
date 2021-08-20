@@ -8,7 +8,7 @@ def start():
     urllogin = "https://web.everphoto.cn/api/auth"
     #https://api.everphoto.cn/auth/qq/check_registered
     #https://web.everphoto.cn/api/auth
-    loginkey = "mobile=+86手机号码" + "&password=密码"
+    loginkey = "mobile=手机号" + "&password=密码"
     responselogin=requests.post(urllogin,data=loginkey,headers=header)
     logindata = json.loads(responselogin.text)["data"]
     header["authorization"] = "Bearer "+logindata["token"]
@@ -20,7 +20,7 @@ def start():
     checkin_result = datas['data']['checkin_result']
     continuity = datas['data']['continuity']
     
-    api = "https://sctapi.ftqq.com/    server酱sendkey    .send?title=时光相册签到&desp=messagecontent"
+    api = "https://sctapi.ftqq.com/server酱sendkey.send?title=时光相册签到&desp=messagecontent"
     title = "时光相册"
     content = "是否为今日第一次签到:" + "\n" + str(checkin_result)+ "\t"+ "\t"+ "\n"+ "\n" + "累积签到天数:" + "\n" + str(continuity)
     data1 = {
