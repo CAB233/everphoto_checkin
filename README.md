@@ -20,7 +20,7 @@
 
 将[代码](https://hub.fastgit.org/CAB233/everphoto_checkin/blob/main/index.py)全部粘贴进去,将`手机号`、`密码`改为上面获得的数据。
 
-根据是否需要推送结果选择填入`server酱sendkey`，可在https://sct.ftqq.com/申请自己的sendkey然后修改代码，然后点击`完成`
+根据是否需要推送结果选择填入`server酱sendkey`，可在https://sct.ftqq.com/ 申请自己的sendkey然后修改代码，然后点击`完成`
 
 ![](https://cdn.jsdelivr.net/gh/CAB233/Image@main/xxx.150abrp7isyk.png)
 
