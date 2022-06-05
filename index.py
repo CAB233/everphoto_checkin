@@ -5,7 +5,7 @@ import json
 def start():
     header = {    }
     url = "https://api.everphoto.cn/users/self/checkin/v2"
-    urllogin = "https://web.everphoto.cn/api/auth"
+    urllogin = "https://openapi.everphoto.cn/sf/3/v4/PostCheckIn"
     #https://api.everphoto.cn/auth/qq/check_registered
     #https://web.everphoto.cn/api/auth
     loginkey = "mobile=手机号" + "&password=密码"
